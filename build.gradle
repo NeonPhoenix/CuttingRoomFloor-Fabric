@@ -89,3 +89,14 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+plugins {
+  id "org.sonarqube" version "4.4.1.3373"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "NeonPhoenix_CuttingRoomFloor-Fabric_AY1UQNTGQ9QK7WYTQtQf"
+    property "sonar.projectName", "CuttingRoomFloor-Fabric"
+  }
+}
